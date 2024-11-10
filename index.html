@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Звездачка Баттерфляй</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://wsxzaq127.github.io/style.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrapper header__wrapper">
+        <img src="img/Logo.png" alt="logo" class="logo" />
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="#!">Главная</a>
+            </li>
+            <li class="nav__item"><a class="nav__link" href="#!">О нас</a></li>
+            <li class="nav__item">
+              <a class="nav__link" href="#!">Скриншоты</a>
+            </li>
+            <li class="nav__item"><a class="nav__link" href="#!">Отзывы</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="hero-block">
+        <div class="wrapper hero-block__wrapper">
+          <img class="hero-block__img" src="img/hero-block.png" />
+          <div class="hero-block__content">
+            <h1 class="hero-block__title">Звездочка Баттерфляй</h1>
+            <a class="hero-block__link" href="#!">Смотреть 1 серию</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="wrapper about__wrapper">
+          <h2 class="about__title">О Звездочке</h2>
+          <div class="about__content">
+            <p class="about__text">
+              Звездочка Баттерфляй — персонаж анимационного сериала «Стар против
+              сил зла». <br />
+              <br />
+              Она является наследницей престола в измерении Мьюни. Когда ей
+              исполнилось 14 лет, Звездочка получила положенную ей по праву
+              Волшебную Палочку, но из-за неосторожного обращения с ней чуть не
+              сожгла семейный замок и едва не разрушила целый город.
+              <br />
+              <br />
+              Родители отправляют её на Землю набраться опыта и устраивают в
+              престижную школу в пригороде Лос-Анджелеса. Звездочку как
+              студентку по обмену селят в семье подростка Марко. Вместе им
+              предстоит пережить немало приключений, путешествовать по разным
+              измерениям и спасать Звездочку от монстров из родного измерения,
+              которые преследуют наследницу трона.
+            </p>
+            <img class="about__img" src="img/about.png" />
+          </div>
+        </div>
+      </section>
+
+      <section class="video">
+        <div class="wrapper video__wrapper">
+          <h2 class="video__title">Видео</h2>
+          <iframe
+            class="video__video"
+            src="https://www.youtube.com/embed/ilae_Hw4O8Y?si=5lRdoubiML4rgcBt"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <div class="gallery__wrapper">
+          <h2 class="gallery__title">Галерея</h2>
+          <ul class="gallery__list">
+            <li class="gallery__item">
+              <a class="lightzoom" href="img/gallery_1_.png">
+                <img class="gallery__img" src="img/gallery_1_.png"
+              /></a>
+            </li>
+            <li class="gallery__item">
+              <a class="lightzoom" href="img/gallery_2_.png">
+                <img class="gallery__img" src="img/gallery_2_.png"
+              /></a>
+            </li>
+            <li class="gallery__item">
+              <a class="lightzoom" href="img/gallery_3_.png">
+                <img class="gallery__img" src="img/gallery_3_.png"
+              /></a>
+            </li>
+            <li class="gallery__item">
+              <a class="lightzoom" href="img/gallery_4_.png">
+                <img class="gallery__img" src="img/gallery_4_.png"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrapper footer__wrapper">
+        <div class="footer__content">
+          <h3 class="footer__title">Софья Рогатых</h3>
+          <p class="footer__text">&copy 2024. Все права защищены.</p>
+        </div>
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a class="footer__link" href="#!">
+              <img class="footer__img" src="img/tellegram.png" />
+            </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#!">
+              <img class="footer__img" src="img/vkontakte.png" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script
+      type="text/javascript"
+      src="https://wsxzaq127.github.io/lightzoom.js"
+    ></script>
+    <script type="text/javascript">
+      jQuery(".lightzoom").lightzoom({ speed: 400, viewTitle: true });
+    </script>
+  </body>
+</html>
